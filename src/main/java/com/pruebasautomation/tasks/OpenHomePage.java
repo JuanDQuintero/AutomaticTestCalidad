@@ -1,6 +1,6 @@
-package com.calidad.calidadautomation.tasks;
+package com.pruebasautomation.tasks;
 
-import com.calidad.calidadautomation.interactions.BancolombiaHomePage;
+import com.pruebasautomation.interactions.MercadolibreHomePage;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -18,7 +18,6 @@ public class OpenHomePage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.browserOn(page));
-        actor.attemptsTo(BancolombiaHomePage.go());
     }
 
     public static OpenHomePage Browser(PageObject page){

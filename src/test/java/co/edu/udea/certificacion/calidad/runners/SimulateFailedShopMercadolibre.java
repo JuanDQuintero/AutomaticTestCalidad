@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/simulate_credits_bancolombia.feature",
+        features = "src/test/resources/features/simulate_search_mercadolibre.feature",
         glue = "co.edu.udea.certificacion.calidad.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )
